@@ -1,0 +1,20 @@
+docker pull image 
+docker pull nginx
+
+docker run --name ,container-name> -p <Host_PORT>:<Container_PORT> -d <Image_Name>:<Tag>
+docker rub --name mynginx -p 8080:80 -d nginx:latest
+
+docker exec -it myapp1 /bin/bash
+docker exec -it myapp1 hostname
+
+start and stop  docker containers
+Docker stop myapps1
+Docker start myapps1
+
+remove Docker containers
+docker rm myapps
+
+remove docker images 
+docker rmi nginx:latest
+
+docker run 
